@@ -1,4 +1,4 @@
-# Tiago Barbosa - Projeto Maia Contabilidade :mortar_board:
+# Tiago Barbosa - Projeto Maia Contabilidade :necktie:
 
 [![Github Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/TiagoABarbosa)](https://github.com/TiagoABarbosa)
 [![GitLab Badge](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white&https://gitlab.com/tiago.barbosa)](https://gitlab.com/tiago.barbosa)
