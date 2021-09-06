@@ -1,0 +1,293 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    background: linear-gradient(#fefefefe 45%, #716f70);
+}
+
+header {
+    background: url("banner-head.jpg");
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logomarca {
+    width: 40%;
+    padding: 50px 0 50px 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 30px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #cc7000;
+    text-decoration: underline;
+} 
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #545454;
+    border-radius: 5px 10px 25px 10px;
+}
+
+.servicos li:hover {
+    border-color: #cc7000;
+}
+
+.servicos li:hover h2{
+    transform: scale(1.1);
+}
+
+.servicos li:active{
+    border-color: #0a608a;
+}
+
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.servico-descricao {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background:  url("back-footer.jpg") no-repeat bottom center scroll;
+    left: 0;
+}
+
+.copyright{
+    color:  #ffffff;
+    .font-family: calibri;
+    font-size: 12px;
+    margin: 30px 0 0;
+}
+
+.desenvolvedor{
+    font-size: 12px;
+    color:  #cc7000;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    background: #fefefe;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 30%;
+}
+
+.checkbox{
+    margin: 30px 0;
+}
+
+.enviar {
+    width: 30%;
+    padding: 10px 0;
+    background: #f7941d;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    box-shadow: black 0.1em 0.1em 0.5em;
+}
+
+.enviar:hover {
+    background: #f1592a;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+   background: #bcbdc0;
+   font-weight: bold;
+}
+
+td, th {
+    border:  1px solid #000000;
+    text-align: center;
+    padding: 8px 40px;
+}
+
+/* css da pagina inicial */
+
+.titulo-principal {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 2em;
+    font-weight: bolder;
+    padding-top: 30px;
+    clear: left;
+}
+
+.principal p {
+    text-align: justify;
+    margin: 0 0 1em;
+    line-height: 1.5em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.logo-sobre {
+    width: 200px;
+    float: left;
+    filter: sepia(40%);
+    border-radius: 4px;
+    margin: 8px 20px 20px 0;
+    box-shadow: grey 0.1em 0.1em 0.5em;
+}
+
+/* CSS Nosso Diferencial */
+
+.conteudo-diferencial {
+    width: 640px;
+    margin: auto 0;  
+}
+
+.lista-diferencial {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+    white-space: nowrap;
+    margin-left: 2em;
+}
+
+.imagem-diferencial {
+    width: 40%;
+    filter: sepia(40%);
+    border-radius: 4px;
+    box-shadow: grey 0.1em 0.1em 0.5em;
+    float: right;
+}
+
+/* CSS Google Maps */
+
+.mapa {
+    padding: 3em 0;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+}
+
+/* configuração mobile*/
+
+@media screen and (max-width: 480px) {
+   body, .caixa, .principal, .diferencial, .conteudo-diferencial, .mapa-conteudo, main, .input-padrao {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    #logomarca {
+        width: 60%;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-diferencial {
+        width: 100%;
+    }
+
+    .imagem-diferencial {
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+    main form, .principal {
+        margin: 0.5em;
+    }
+    
+    .enviar {
+        width: 98%;
+        font-size: 12px;
+    }
+
+    .servicos, .servicos li {
+        width: 98%;
+        display: block;
+    }
+
+    .desenvolvedor, .copyright {
+        width: 100%;
+        font-size: 11px;
+    }
+
+}
