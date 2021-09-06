@@ -6,7 +6,7 @@
 [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&https://www.instagram.com/tiago_alvves/)](https://www.instagram.com/tiago_alvves/)
 
 
-Projeto criado a partir da da formação HTML5 e CSS3 Alura, mudando o tema principal do curso (Barbearia Alura) para o escritório Maia Contabilidade, onde iniciei minha vida profissional e que contribuiu muito para o profissional que sou hoje.
+Projeto criado a partir da formação HTML5 e CSS3 Alura, mudando o tema principal do curso (Barbearia Alura) para o escritório Maia Contabilidade, onde iniciei minha carreira profissional e que contribuiu muito para formar o profissional que sou hoje.
 
 ## Tecnologias aplicadas:
 
