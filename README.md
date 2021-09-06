@@ -18,6 +18,5 @@ Projeto criado a partir da da formação HTML5 e CSS3 Alura, mudando o tema prin
 ## Links Úteis
 
 [Site Oficial Maia Contabilidade](https://http://maiacontabil.com.br/)<p>
-[Git Download](https://git-scm.com/downloads)
 
 <img src="https://github.com/TiagoABarbosa/Projeto-Maia-Contabilidade/blob/563513bd386ca6f931c0d2d5d11a9465a2c50fba/logo-footer.png" width="150">
