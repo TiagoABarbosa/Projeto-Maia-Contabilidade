@@ -8,7 +8,7 @@
 
 Projeto criado a partir da formação HTML5 e CSS3 Alura, mudando o tema principal do curso (Barbearia Alura) para o escritório Maia Contabilidade, onde iniciei minha carreira profissional e que contribuiu muito para formar o profissional que sou hoje.
 
-## Tecnologias aplicadas:
+## Tecnologias Aplicadas:
 
 [![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://pt.wikipedia.org/wiki/HTML5)
 [![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://pt.wikipedia.org/wiki/CSS3)
